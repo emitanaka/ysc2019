@@ -1,4 +1,4 @@
-baseurl: "https://www.ysc2019.com.au/"
+baseurl: "https://www.ysc2019.netlify.com.au"
 title: "Young Statisticians Conference 2019"
 canonifyurls: true
 theme: "hugo-conference"
