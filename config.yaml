@@ -1,7 +1,8 @@
-baseurl: "https://www.ysc2019.netlify.com.au"
+baseurl: "https://www.ysc2019.netlify.com"
 title: "Young Statisticians Conference 2019"
 canonifyurls: true
 theme: "hugo-conference"
+ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 GoogleAnalytics: ""
 
