@@ -11,7 +11,7 @@ params:
   Description: ""
   Date: "1-2, October 2019"
   Price: "More information coming soon!" # If your event is free, just comment this line
-  Venue: "TBA"
+  Venue: "Manuka Oval"
   Address: "TBA"
   City:  "Canberra"
   State: "ACT"
@@ -22,6 +22,11 @@ params:
   # you can also change order here and it will reflect on page
   Sections:
     - about
+    #- partners 
+    #- registration 
+    #- abstract submission
+    #- program
+    #- social program
     #- location
     #- speakers
     #- schedule
@@ -56,12 +61,12 @@ params:
 
   # List of Partners
   Partners:
-    - name: "Hugo"
-      logo: "/img/hugo.jpg"
-      url: "https://gohugo.io"
-    - name: "BrazilJS"
-      logo: "/img/partner.png"
-      url: "http://braziljs.org"
+    - name: "Statistical Society of Australia"
+      logo: "/img/SSA.png"
+      url: "http://www.statsoc.org.au/"
+    - name: "Young Statisticians Conference 2019"
+      logo: "/img/YSC2019.png"
+      url: "http://www.ysc2019.com.au"
 
   # The entire schedule
   Schedule:

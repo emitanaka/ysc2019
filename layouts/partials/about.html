@@ -1,3 +1,13 @@
 <h2 class="section-title">{{ .titles.about }}</h2>
 
-<p itemprop="description">Young Statisticians Conference is a biennial conference for students and early career researcher in statisitcs sponsored by Statistical Society of Australia.</p>
+<p itemprop="description">Young Statisticians Conference is a biennial conference for students and early career researcher in statisitcs sponsored by <a href="http://www.statsoc.org.au/">Statistical Society of Australia</a>.
+<ul class="partners-list">
+{{ range $partner := .partners }}
+  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="{{ .url }}" class="partner-logo partner-link" itemprop="url" target="_blank">
+      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+    </a>
+  </li>
+{{ end }}
+</ul>
+</p>
