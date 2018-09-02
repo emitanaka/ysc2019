@@ -56,16 +56,16 @@ params:
   # List of Sponsors
   Sponsors:
     - name: "Hugo"
-      logo: "/img/hugo.png"
+      logo: "img/hugo.png"
       url: "http://gohugo.io"
 
   # List of Partners
   Partners:
     - name: "Statistical Society of Australia"
-      logo: "/img/SSA.png"
+      logo: "img/SSA.png"
       url: "http://www.statsoc.org.au/"
     - name: "Young Statisticians Conference 2019"
-      logo: "/img/YSC2019.png"
+      logo: "img/YSC2019.png"
       url: "http://www.ysc2019.com.au"
 
   # The entire schedule
