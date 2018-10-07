@@ -10,12 +10,12 @@ params:
   Name: "Young Statisticians Conference 2019"
   Description: ""
   Date: "1-2, October 2019"
-  Price: "More information coming soon!" # If your event is free, just comment this line
   Venue: "Manuka Oval"
   Address: "TBA"
   City:  "Canberra"
   State: "ACT"
-  Images: ["img/YSC2019.png"]
+  Motto: "Visualising the Future"
+  Images: "/img/YSC2019.png"
   GoogleMapsKey: "my-secret-maps-key"
 
   # Active sections on the website to deactivate comment out with '#'
@@ -31,7 +31,7 @@ params:
     #- speakers
     #- schedule
     #- sponsors
-    #- contact
+    - contact
 
   # Titles which you can translate to other languages
   Titles:
@@ -47,7 +47,7 @@ params:
   # If you don't want this, just remove the callToAction property.
   CallToAction:
     text: "Register your interest now!"
-    link: "http://register.example.com"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfJAUZJZuYJSuo2hiUATREDSQIhQk7Z-1-sPWd-FTxhmAJKGQ/viewform?usp=sf_link"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   #ForkButton:
