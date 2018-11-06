@@ -10,4 +10,16 @@
   </li>
 {{ end }}
 </ul>
+
+<h2>Sponsors</h2>
+<ul class="sponsors-list" >
+{{ range $sponsor := .sponsors }}
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="{{ .url }}" itemprop="url" target="_blank" style="float:left; padding: 0 15px">
+      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image" width="30%">
+    </a><p  style="font-size:10pt"> {{ .text }}</p>
+  </li>
+{{ end }}
+</ul>
+
 </p>

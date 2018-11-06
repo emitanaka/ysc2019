@@ -16,9 +16,14 @@
   <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="/css/main.css">
   <link rel="stylesheet" href="/css/owl.carousel.min.css">
 <link rel="stylesheet" href="/css/owl.theme.default.min.css">
+<link rel="stylesheet" href="/css/font-awesome-animation.min.css">
+
+
+
 
 </head>
 <body>
@@ -26,75 +31,88 @@
 
     {{ partial "nav.html" . }}
     {{ partial "header.html" .Site.Params }}
-
-    <div class="content" id="content">
-      <div class="wrapper">   
       
 <center><img src="/img/manuka2.jpg" width="100%"/></center><br><br>
           <section class="about" id="about">
             {{ partial "about" $.Site.Params }}
           </section>
+        
+  <section class="about" id="speakers">  
+    {{ partial "speakers.html" .Site.Params }}
+  </section>
+  
+  <section class="about" id="workshop">  
+  <h2 class="section-title">Workshop</h2>
+  <span style="font-size:14pt">More information coming soon!</span>
+  </section>
+
+      <section class="about" id="videocomp">
+            <h2>Video Competition</h2>
+            <span style="font-size:14pt">More details to follow!</span>
+      </section>
+          
            <section class="about" id="contact">
             {{ partial "contact" $.Site.Params }}
           </section>
+          
           <section class="about" id="organisers">
             <h2>Organising Committee</h2>
             <table style="width:100%;line-height:3em;">
             <tr>
-            <td style="font-size:20pt">Raaj Kishore Biswas</td>
-            <td style="font-size:20pt">Chair</td>
+            <td style="font-size:14pt">Raaj Kishore Biswas</td>
+            <td style="font-size:14pt">Chair</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Philip Clare</td>
-            <td style="font-size:20pt">Program Chair</td>
+            <td style="font-size:14pt">Philip Clare</td>
+            <td style="font-size:14pt">Program Chair</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Janan Arslan</td>
-            <td style="font-size:20pt">Committee Secretary</td>
+            <td style="font-size:14pt">Janan Arslan</td>
+            <td style="font-size:14pt">Committee Secretary</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Myra McGuinness</td>
-            <td style="font-size:20pt">Co-Abstract Submissions Manager</td>
+            <td style="font-size:14pt">Myra McGuinness</td>
+            <td style="font-size:14pt">Co-Abstract Submissions Manager</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Jemisha Apajee</td>
-            <td style="font-size:20pt">Co-Abstract Submissions Manager</td>
+            <td style="font-size:14pt">Jemisha Apajee</td>
+            <td style="font-size:14pt">Co-Abstract Submissions Manager</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Emi Tanaka</td>
-            <td style="font-size:20pt">Website Manager</td>
+            <td style="font-size:14pt">Emi Tanaka</td>
+            <td style="font-size:14pt">Website Manager</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">John Yeung</td>
-            <td style="font-size:20pt">Assistant Website Manager</td>
+            <td style="font-size:14pt">John Yeung</td>
+            <td style="font-size:14pt">Assistant Website Manager</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Jandy Tenedora</td>
-            <td style="font-size:20pt">Social Media Manager</td>
+            <td style="font-size:14pt">Jandy Tenedora</td>
+            <td style="font-size:14pt">Social Media Manager</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Kylie-Ann Mallitt</td>
-            <td style="font-size:20pt">Social Media Manager</td>
+            <td style="font-size:14pt">Kylie-Ann Mallitt</td>
+            <td style="font-size:14pt">Social Media Manager</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Sharmala (Sharm) Thuraisingam</td>
-            <td style="font-size:20pt">Sponsorship Manager</td>
+            <td style="font-size:14pt">Sharmala (Sharm) Thuraisingam</td>
+            <td style="font-size:14pt">Sponsorship Manager</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Nidhi Menon</td>
-            <td style="font-size:20pt">Venue Liaison/Local Contact</td>
+            <td style="font-size:14pt">Nidhi Menon</td>
+            <td style="font-size:14pt">Venue Liaison/Local Contact</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Ratih Putri Pertiwi</td>
-            <td style="font-size:20pt">Social Program Manager</td>
+            <td style="font-size:14pt">Ratih Putri Pertiwi</td>
+            <td style="font-size:14pt">Social Program Manager</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Armin Pourkhanali</td>
-            <td style="font-size:20pt">Treasurer</td>
+            <td style="font-size:14pt">Armin Pourkhanali</td>
+            <td style="font-size:14pt">Treasurer</td>
             </tr>
             <tr>
-            <td style="font-size:20pt">Marie-Louise Rankin</td>
-            <td style="font-size:20pt">Observer</td>
+            <td style="font-size:14pt">Marie-Louise Rankin</td>
+            <td style="font-size:14pt">Executive Officer</td>
             </tr>
             </table>
           </section>

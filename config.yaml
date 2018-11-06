@@ -28,20 +28,20 @@ params:
     #- program
     #- social program
     #- location
-    #- speakers
+    - speakers
     #- schedule
-    #- sponsors
+    - sponsors
     - contact
 
   # Titles which you can translate to other languages
   Titles:
     about: "About"
-    location: "Location"
-    speakers: "Speakers"
-    schedule: "Schedule"
-    sponsors: "Sponsors"
-    partners: "Partners"
-    contact: "Contact"
+    #location: "Location"
+    speakers: "Program"
+    #schedule: "Schedule"
+    #sponsors: "Sponsors"
+    #partners: "Partners"
+    #contact: "Contact"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
@@ -55,10 +55,22 @@ params:
 
   # List of Sponsors
   Sponsors:
-    - name: "Hugo"
-      logo: "img/hugo.png"
-      url: "http://gohugo.io"
+    - name: "ACEMS"
+      logo: "img/logo-with-text-150.png"
+      url: "https://acems.org.au/home"
+      text: "The Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS) brings together a critical mass of Australia’s best researchers in applied mathematics, statistics, mathematical physics and machine learning. The Centre brings together researchers from across Australia, engaging in research programs that combine innovative methods for the analysis of data with theoretical, methodological and computational foundations provided by advanced mathematical and statistical modelling.
 
+ACEMS aims to create world-class research at the frontiers of the mathematical sciences dealing with probability and randomness, and to translate this research into new insights that benefit society."
+    - name: "Minitab"
+      logo: "img/Minitab Corp Logo BGround.jpg"
+      url: "www.minitab.com"
+      text: "Minitab helps companies and institutions to spot trends, solve problems and discover valuable insights in data by delivering a comprehensive and best-in-class suite of statistical analysis and process improvement tools. Combined with unparalleled ease-of-use, Minitab makes it simpler than ever to get deep insights from data. Plus, a team of highly trained data analytic experts ensure that users get the most out of their analysis, enabling them to make better, faster and more accurate decisions.
+With its foundations in academia, Minitab is the leading software used for statistics education at more than 4,000 colleges and universities worldwide. More students learn statistics with Minitab than with any other software. In 2017, Minitab acquired Salford Systems, a leading provider of advanced analytics which delivers a suite of powerful data mining, predictive analytics and modelling capabilities. Unlock the value of your data with Minitab. For more information visit www.minitab.com.
+"
+    - name: "RStudio"
+      logo: "img/RStudio Logo Blue Gray.jpg"
+      url: "https://www.rstudio.com/"
+      text: "RStudio helps people understand and improve the world through data. We build tools that enable robust and reproducible data analysis through programming, paired with tools that make it easy to share insights. Our core software is open source, freely available to anyone. Our professional software equips individuals and teams to develop and share their work at scale."
   # List of Partners
   Partners:
     - name: "Statistical Society of Australia"
@@ -70,83 +82,31 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Check-in / Breakfast"
-      time: "9h00"
-
-    - name: "Linus Torvalds"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Linux Foundation"
+    - name: "Teresa Dickinson"
+      photo: "/img/teresa.png"
+      bio: "Teresa Dickinson is the Deputy Australian Statistician leading the Census & Data Services Group.
+The Census & Data Services Group is responsible for collecting the data the ABS uses in its work and disseminating the official statistics, data and insights it produces to inform Australia's important decisions. The Group provides statistical infrastructure to support work of the ABS and leads its work to expand and improve data sharing, data integration and microdata access across government. It also leads planning underway for the 2021 Census.
+Teresa joined the ABS in April 2018 after four years as a Deputy Government Statistician and Deputy Chief Executive at Statistics New Zealand. At Stats NZ she held a variety of roles, including leading their transformation program, providing statistical infrastructure and – most recently - leading data collection and production of official statistics and insights across economic, social and environmental statistics. This included responsibility for leading their 2018 Census, which was undertaken in March.
+During a career spanning 30 years, Teresa has worked in a wide range of statistical and data roles in the public sector including Commonwealth Government (AIHW and ABS previously), Victorian State Government and scientific research (CSIRO). She has over 15 years’ experience at senior executive levels.
+Teresa holds Master of Statistics and a Master of Business Administration degrees. She is a University Medallist and Accredited Statistician with the Statistical Society of Australia."
+      company: "Deputy Australian Statistician, Australian Bureau of Statistics"
       link:
-        href: "http://twitter.com/linus"
-        text: "@linus"
+        href: ""
+        text: ""
       presentation:
-        title: "Digging into a Linux Kernel"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "10h00"
-
-    - name: "Bill Gates"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Microsoft"
+        title: ""
+        description: ""
+    - name: "Dr Margarita Moreno-Betancur"
+      photo: "/img/margarita.png"
+      bio: "Dr Moreno-Betancur is a Senior Research Fellow in Biostatistics and part of the management team of the Victorian Centre for Biostatistics (ViCBiostat), a collaboration of researchers across three institutions (Murdoch Children’s Research Institute, The University of Melbourne and Monash University).
+After a BSc in Pure Mathematics at Universidad de los Andes (Bogota) and an MSc in Statistics at Université Pierre et Marie Curie (Paris), Dr Moreno-Betancur obtained a PhD in Biostatistics from Université Paris-Sud (Paris). Prior to arriving in Melbourne, she held a postdoctoral role at the French Epidemiology Centre on Medical Causes of Death (Inserm CépiDc).
+Her research concerns the development of statistical methods for the analysis of clinical and population health studies, with focus on the areas of survival analysis, causal inference and missing data. Her work is strongly motivated by analytical issues arising in studies on which she collaborates, particularly in child and adolescent health.
+"
+      company: "Senior Research Fellow, VicBiostat"
       link:
-        href: "http://github.com/billy95"
-        text: "@billy95"
+        href: ""
+        text: ""
       presentation:
-        title: "Introducing Windows 12"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "11h00"
+        title: ""
+        description: ""
 
-    - name: "Lunch"
-      time: "12h00"
-
-    - name: "Chuck Norris"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Delta Command"
-      link:
-        href: "http://twitter.com/littlechuck"
-        text: "@littlechuck"
-      presentation:
-        title: "How to kill a elephant with one finger"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "13h00"
-
-    - name: "Steve Jobs"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      link:
-        href: "http://github.com/stevie"
-        text: "@stevie"
-      presentation:
-        title: "Presenting iPad"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "14h00"
-
-    - name: "Coffee-break"
-      time: "15h00"
-
-    - name: "Mark Zuckerberg"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Facebook"
-      link:
-        href: "http://twitter.com/zuck"
-        text: "@zuck"
-      presentation:
-        title: "Revealing Facebook Secrets"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "16h00"
-
-    - name: "Steve Wozniak"
-      photo: "/img/speaker.jpg"
-      bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-      company: "Apple, Inc."
-      link:
-        href: "http://twitter.com/woz"
-        text: "@woz"
-      presentation:
-        title: "Why do I prefer Android over iPhone"
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: "17h00"
