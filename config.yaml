@@ -41,7 +41,7 @@ params:
     #schedule: "Schedule"
     #sponsors: "Sponsors"
     #partners: "Partners"
-    #contact: "Contact"
+    contact: "Contact"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
