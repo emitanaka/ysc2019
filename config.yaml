@@ -31,10 +31,10 @@ params:
     - speakers
     #- schedule
     - sponsors
- 	  - workshop
- 	  - video
- 	  - contact
- 	  - organisers
+    - workshop
+    - video
+    - contact
+    - organisers
 
   # Titles which you can translate to other languages
   Titles:
@@ -45,8 +45,8 @@ params:
     #sponsors: "Sponsors"
     #partners: "Partners"
     contact: "Contact"
-	  video: "YSC 2019 Three Minute Thesis Video Competition"
-	  organisers: "Organising Committee"
+    video: "YSC 2019 Three Minute Thesis Video Competition"
+    organisers: "Organising Committee"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
