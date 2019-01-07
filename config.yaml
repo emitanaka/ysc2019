@@ -11,7 +11,7 @@ params:
   Description: ""
   Date: "1-2, October 2019"
   Venue: "Manuka Oval"
-  Address: "TBA"
+  Address: "Manuka Cir, Griffith ACT 2603"
   City:  "Canberra"
   State: "ACT"
   Motto: "Visualising the Future"
@@ -31,7 +31,10 @@ params:
     - speakers
     #- schedule
     - sponsors
+    - workshop
+    - video
     - contact
+    - organisers
 
   # Titles which you can translate to other languages
   Titles:
@@ -42,6 +45,11 @@ params:
     #sponsors: "Sponsors"
     #partners: "Partners"
     contact: "Contact"
+<<<<<<< HEAD
+=======
+    video: "3 Minutes Thesis Video Competition"
+    organisers: "Organising Committee"
+>>>>>>> 2bc0c433f9474b8d62e1f8a55e31ff0596895ac4
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
