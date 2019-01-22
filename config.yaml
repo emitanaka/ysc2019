@@ -45,7 +45,7 @@ params:
     #sponsors: "Sponsors"
     #partners: "Partners"
     contact: "Contact"
-    video: "3 Minutes Thesis Video Competition"
+    video: "Video Competition"
     organisers: "Organising Committee"
 
   # The Call To Action button at the header,
