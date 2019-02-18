@@ -40,14 +40,22 @@
   <section class="about" id="speakers">  
     {{ partial "speakers.html" .Site.Params }}
   </section>
+	  
+  <section class="about" id="sponsors">  
+    {{ partial "sponsors.html" .Site.Params }}
+  </section>
   
   <section class="about" id="workshop">  
   <h2 class="section-title">Workshop</h2>
   <span style="font-size:14pt">More information coming soon!</span>
   </section>
 
-      <section class="about" id="videocomp">
+      <section class="about" id="video">
         {{ partial "video" $.Site.Params }}
+      </section>
+	  
+	  <section class="about" id="accomodation">
+        {{ partial "accomodation" $.Site.Params }}
       </section>
           
            <section class="about" id="contact">

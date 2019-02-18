@@ -33,6 +33,7 @@ params:
     - sponsors
     - workshop
     - video
+    - accomodation
     - contact
     - organisers
 
@@ -42,10 +43,11 @@ params:
     #location: "Location"
     speakers: "Program"
     #schedule: "Schedule"
-    #sponsors: "Sponsors"
+    sponsors: "Sponsors"
     #partners: "Partners"
     contact: "Contact"
     video: "Video Competition"
+    accomodation: "Accomodation"
     organisers: "Organising Committee"
 
   # The Call To Action button at the header,
