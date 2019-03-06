@@ -45,7 +45,7 @@ params:
     #schedule: "Schedule"
     sponsors: "Sponsors"
     #partners: "Partners"
-    contact: "Contact"
+    contact: "Contact Us"
     video: "Video Competition"
     accomodation: "Accomodation"
     organisers: "Organising Committee"
@@ -63,24 +63,17 @@ params:
   # List of Sponsors
   Sponsors:
     - name: "Australian Bureau of Statistics"
-      logo: "img/ABS_logo2.png"
-      url: "https://www.abs.gov.au/"
-      text: ""
-    - name: "Australian Mathematical Sciences Institute"
-      logo: "img/AMSI_V_RGB_HR.png"
-      url: "https://amsi.org.au/"
-      text: ""
+      logo: "img/abs.png"
+      url: "http://www.abs.gov.au/"
+      text: "The Australian Bureau of Statistics (ABS) is Australia’s national statistical agency, providing trusted official statistics on a wide range of economic, social, population and environmental matters of importance to Australia. The role of the ABS is to provide the statistical information that Australia needs, respond to the changing information priorities of its stakeholders, enhance the ways that it interacts with its stakeholders, develop and maintain community trust, which is fundamental to its ability to collect high quality information, enable effective and safe use of its statistics, coordinate and advise official bodies on statistics, including developing, and ensuring compliance with, statistical standards, fulfil its role as an Accredited Integrating Authority, build its capacity to take advantage of opportunities, such as advances in technology, big data, and use of administrative information for statistical purposes,  ensure cost-effect operations, including better use of existing information, collect information more efficiently, streamline processes, and reduce the impact on those who provide statistical information. It is the highest priority of the ABS to deliver high quality official statistics. To ensure that the ABS can deliver relevant, trusted, objective statistics, it is transforming the ABS and partnering with stakeholders to innovate, develop and implement new statistical solutions. The ABS also has an important leadership role, coordinating statistical activities and collaborating with official bodies in the collection, compilation, analysis and distribution of statistics. In addition, the ABS provides technical advice and assistance to the Australian and state and territory governments in relation to statistics, develops standards for statistics, and helps to ensure compliance with those standards. The ABS Corporate Plan, outlining the ABS purpose, strategic priorities, operating environment and performance measures, can be found on the ABS website."
     - name: "ACEMS"
       logo: "img/logo-with-text-150.png"
       url: "https://acems.org.au/home"
-      text: "The Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS) brings together a critical mass of Australia’s best researchers in applied mathematics, statistics, mathematical physics and machine learning. The Centre brings together researchers from across Australia, engaging in research programs that combine innovative methods for the analysis of data with theoretical, methodological and computational foundations provided by advanced mathematical and statistical modelling.
-
-ACEMS aims to create world-class research at the frontiers of the mathematical sciences dealing with probability and randomness, and to translate this research into new insights that benefit society."
+      text: "The Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS) brings together a critical mass of Australia’s best researchers in applied mathematics, statistics, mathematical physics and machine learning. The Centre brings together researchers from across Australia, engaging in research programs that combine innovative methods for the analysis of data with theoretical, methodological and computational foundations provided by advanced mathematical and statistical modelling. ACEMS aims to create world-class research at the frontiers of the mathematical sciences dealing with probability and randomness, and to translate this research into new insights that benefit society."
     - name: "Minitab"
       logo: "img/Minitab Corp Logo BGround.jpg"
       url: "www.minitab.com"
-      text: "Minitab helps companies and institutions to spot trends, solve problems and discover valuable insights in data by delivering a comprehensive and best-in-class suite of statistical analysis and process improvement tools. Combined with unparalleled ease-of-use, Minitab makes it simpler than ever to get deep insights from data. Plus, a team of highly trained data analytic experts ensure that users get the most out of their analysis, enabling them to make better, faster and more accurate decisions.
-With its foundations in academia, Minitab is the leading software used for statistics education at more than 4,000 colleges and universities worldwide. More students learn statistics with Minitab than with any other software. In 2017, Minitab acquired Salford Systems, a leading provider of advanced analytics which delivers a suite of powerful data mining, predictive analytics and modelling capabilities. Unlock the value of your data with Minitab. For more information visit www.minitab.com.
+      text: "Minitab helps companies and institutions to spot trends, solve problems and discover valuable insights in data by delivering a comprehensive and best-in-class suite of statistical analysis and process improvement tools. Combined with unparalleled ease-of-use, Minitab makes it simpler than ever to get deep insights from data. Plus, a team of highly trained data analytic experts ensure that users get the most out of their analysis, enabling them to make better, faster and more accurate decisions. With its foundations in academia, Minitab is the leading software used for statistics education at more than 4,000 colleges and universities worldwide. More students learn statistics with Minitab than with any other software. In 2017, Minitab acquired Salford Systems, a leading provider of advanced analytics which delivers a suite of powerful data mining, predictive analytics and modelling capabilities. Unlock the value of your data with Minitab. For more information visit www.minitab.com.
 "
     - name: "RStudio"
       logo: "img/RStudio Logo Blue Gray.jpg"
