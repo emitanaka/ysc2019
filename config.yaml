@@ -41,7 +41,7 @@ params:
   Titles:
     about: "About"
     #location: "Location"
-    speakers: "Program"
+    speakers: "Keynote Speakers"
     #schedule: "Schedule"
     sponsors: "Sponsors"
     #partners: "Partners"
@@ -62,6 +62,14 @@ params:
 
   # List of Sponsors
   Sponsors:
+    - name: "Australian Bureau of Statistics"
+      logo: "img/ABS_logo2.png"
+      url: "https://www.abs.gov.au/"
+      text: ""
+    - name: "Australian Mathematical Sciences Institute"
+      logo: "img/AMSI_V_RGB_HR.png"
+      url: "https://amsi.org.au/"
+      text: ""
     - name: "ACEMS"
       logo: "img/logo-with-text-150.png"
       url: "https://acems.org.au/home"
@@ -78,6 +86,18 @@ With its foundations in academia, Minitab is the leading software used for stati
       logo: "img/RStudio Logo Blue Gray.jpg"
       url: "https://www.rstudio.com/"
       text: "RStudio helps people understand and improve the world through data. We build tools that enable robust and reproducible data analysis through programming, paired with tools that make it easy to share insights. Our core software is open source, freely available to anyone. Our professional software equips individuals and teams to develop and share their work at scale."
+    - name: "Swinburne University of Technology"
+      logo: "img/swinburne_logo.png"
+      url: "https://www.swinburne.edu.au/"
+      text: ""
+    - name: "UniBank"
+      logo: "img/UniBank_RGB_Black_Logo.jpg"
+      url: "https://www.unibank.com.au/"
+      text: ""
+    - name: "UniSuper"
+      logo: "img/unisuper_logo.png"
+      url: "https://www.unisuper.com.au/"
+      text: ""
   # List of Partners
   Partners:
     - name: "Statistical Society of Australia"
@@ -116,4 +136,25 @@ Her research concerns the development of statistical methods for the analysis of
       presentation:
         title: ""
         description: ""
-
+    - name: "Dr Alison Presmanes Hill"
+      photo: "/img/alison.png"
+      bio: "Alison Hill is a Data Scientist & Professional Educator at RStudio, developing free and open source tools to make it easier and more fun to do data science with the statistical programming language. 
+Alison studied psychology and quantitative methods, receiving her Ph.D. from Vanderbilt University in 2008. For eight years, she was a professor and scientist at Oregon Health & Science University, where her research was funded by the National Institutes of Health, the Oregon Clinical and Translational Research Institute, and Autism Speaks. She has written numerous scientific journal articles and book chapters on autism and neurodevelopmental disorders.
+She has developed and delivered workshops, graduate-level courses, and curricula based on teaching R, the tidyverse, and literate programming."
+      company: "Data Scientist & Professional Educator, RStudio"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: ""
+        description: ""
+    - name: "Dr Felicity Splatt"
+      photo: "/img/felicity.png"
+      bio: "Felicity currently works as a Lead Consultant for data analytics company Quantium. Previous roles were in PwC’s Analytic Intelligence team, at the ATO and the ABS. She has a PhD in experimental physics (quantum computing) from the University of Innsbruck, Austria, and a Bachelor of Science (Honours) in physics and mathematics from the University of Melbourne. In her spare time she loves doing Crossfit, mountain biking and visiting Melbourne’s great restaurants."
+      company: "Lead Consultant, Quantium"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: ""
+        description: ""
