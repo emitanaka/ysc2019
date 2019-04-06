@@ -34,6 +34,7 @@ params:
     - workshop
     - video
     - accomodation
+    - canberra
     - contact
     - organisers
 
@@ -47,6 +48,7 @@ params:
     #partners: "Partners"
     contact: "Contact Us"
     video: "Video Competition"
+    canberra: "About Canberra"
     accomodation: "Accomodation"
     organisers: "Organising Committee"
 
