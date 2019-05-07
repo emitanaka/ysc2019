@@ -26,13 +26,13 @@ params:
     #- registration 
     #- abstract submission
     #- program
-    #- social program
     #- location
     - speakers
     #- schedule
     - sponsors
     - workshop
     - video
+    - socials
     - accomodation
     - canberra
     - contact
@@ -48,6 +48,7 @@ params:
     #partners: "Partners"
     contact: "Contact Us"
     video: "Video Competition"
+    socials: "Dinner"
     canberra: "About Canberra"
     accomodation: "Accomodation"
     organisers: "Organising Committee"
