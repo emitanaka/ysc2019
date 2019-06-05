@@ -81,7 +81,7 @@ params:
       text: "AMSI is the collaborative enterprise of Australia’s mathematical sciences. They pursue collaboration between member orgaisations to promote mathematics in school eductaion, improve research base in Australia and strengthen the industry-university link. "
     - name: "Minitab"
       logo: "img/Minitab Corp Logo BGround.jpg"
-      url: "www.minitab.com"
+      url: "https://www.minitab.com/en-us/"
       text: "Minitab helps companies and institutions to spot trends, solve problems and discover valuable insights in data by delivering a comprehensive and best-in-class suite of statistical analysis and process improvement tools. Combined with unparalleled ease-of-use, Minitab makes it simpler than ever to get deep insights from data. Plus, a team of highly trained data analytic experts ensure that users get the most out of their analysis, enabling them to make better, faster and more accurate decisions. With its foundations in academia, Minitab is the leading software used for statistics education at more than 4,000 colleges and universities worldwide. More students learn statistics with Minitab than with any other software. In 2017, Minitab acquired Salford Systems, a leading provider of advanced analytics which delivers a suite of powerful data mining, predictive analytics and modelling capabilities. Unlock the value of your data with Minitab. For more information visit www.minitab.com."
     - name: "RStudio"
       logo: "img/RStudio Logo Blue Gray.jpg"
