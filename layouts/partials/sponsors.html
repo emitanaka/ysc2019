@@ -1,6 +1,6 @@
 <h2 class="section-title">{{ .titles.sponsors }}</h2>
 
-<ul class="sponsors-list">
+<ul class="sponsors-list" style="max-width:500px;">
 {{ range $sponsor := .sponsors }}
   <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
     <a href="{{ .url }}" class="sponsor--link" itemprop="url" target="_blank">
