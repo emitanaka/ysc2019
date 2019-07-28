@@ -19,7 +19,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 12pt;
+  font-size: 100%;
   line-height: 1em;
 }
 article,
@@ -990,9 +990,13 @@ nav {
 /* =============================================================================
    PRESENTATION TIPS
    ========================================================================== */
+.title {
+	font-size: 36pt;
+}
 .points {
-	font-size: 1.4em;
-	list-style: circle;
+	padding: 5px 15px;
+	font-size: 14pt;
+	type: circle;
 }
 /* =============================================================================
    Media Queries
