@@ -993,6 +993,11 @@ nav {
 .title {
 	font-size: 28pt;
 }
+
+.heading {
+	margin-top: 10px;
+	font-size: 13pt;
+}
 .points {
 	padding: 5px 15px;
 	font-size: 12pt;
