@@ -56,8 +56,8 @@ params:
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "Submit your abstract"
-    link: "https://ysc2019_abstracts.typeform.com/to/CFZC6Z"
+    text: "Register for pre-YSC Trivia Night"
+    link: "https://statsoc.org.au/event-3478779"
 
   #link: "https://docs.google.com/forms/d/e/1FAIpQLSfJAUZJZuYJSuo2hiUATREDSQIhQk7Z-1-sPWd-FTxhmAJKGQ/viewform"
 
@@ -147,6 +147,16 @@ Her research concerns the development of statistical methods for the analysis of
 Alison studied psychology and quantitative methods, receiving her Ph.D. from Vanderbilt University in 2008. For eight years, she was a professor and scientist at Oregon Health & Science University, where her research was funded by the National Institutes of Health, the Oregon Clinical and Translational Research Institute, and Autism Speaks. She has written numerous scientific journal articles and book chapters on autism and neurodevelopmental disorders.
 She has developed and delivered workshops, graduate-level courses, and curricula based on teaching R, the tidyverse, and literate programming."
       company: "Data Scientist & Professional Educator, RStudio"
+      link:
+        href: ""
+        text: ""
+      presentation:
+        title: ""
+        description: ""
+    - name: "Dr Calvin Hung"
+      photo: "/img/calvin.jpg"
+      bio: "Dr Calvin Hung is a Data Scientist at QuantumBlack. QuantumBlack is an advanced analytics firm and part of McKinsey & Company, operating at the intersection of strategy, technology and design to improve performance outcomes for organisations. Calvin holds a BSc in Physics and Mathematics, a BEng in Aerospace and a PhD in Robotics, all from the University of Sydney. His research focused on applying Deep Learning techniques to help robots navigate real world environments. After 3 years of postdoc Calvin joined the finance industry, developing systems to improve financial well-being of customers. Calvin joined QuantumBlack in 2017 and has since worked on a variety of transformation programs across retail, telco, mining and pharmaceutical industries."
+      company: "Data Scientist, QuantumBlack"
       link:
         href: ""
         text: ""
