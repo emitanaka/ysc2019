@@ -28,7 +28,7 @@ params:
     #- program
     #- location
     - speakers
-    #- schedule
+    - schedule
     - sponsors
     - workshop
     - video
@@ -43,7 +43,7 @@ params:
     about: "About"
     #location: "Location"
     speakers: "Keynote Speakers"
-    #schedule: "Schedule"
+    schedule: "Schedule"
     sponsors: "Sponsors"
     #partners: "Partners"
     contact: "Contact Us"
