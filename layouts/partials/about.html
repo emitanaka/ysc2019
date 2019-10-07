@@ -1,6 +1,6 @@
 <h2 class="section-title">{{ .titles.about }}</h2>
 
-<p itemprop="description">Young Statisticians Conference is a biennial conference for students and early career researcher in statisitcs sponsored by <a href="http://www.statsoc.org.au/">Statistical Society of Australia</a>.
+<p itemprop="description">Young Statisticians Conference is a biennial conference for students and early career researcher in statistics sponsored by <a href="http://www.statsoc.org.au/">Statistical Society of Australia</a>.
 <ul class="partners-list">
 {{ range $partner := .partners }}
   <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
@@ -11,15 +11,6 @@
 {{ end }}
 </ul>
 
-<h2>Sponsors</h2>
-<ul class="sponsors-list" >
-{{ range $sponsor := .sponsors }}
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="{{ .url }}" itemprop="url" target="_blank" style="float:left; padding: 0 15px">
-      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image" width="30%">
-    </a><p  style="font-size:10pt"> {{ .text }}</p>
-  </li>
-{{ end }}
-</ul>
-
 </p>
+<p itemprop="description">For the enjoyment of all participants of YSC2019 we expect delegates to abide by the Society’s Code of Conduct. The organisers of YSC2019 are committed to providing a conference that is welcoming and safe for all participants, is free from discrimination and harassment, where all participants are treated with dignity and respect.  Please familiarise yourself with this event’s <a href="https://ysc2019.netlify.com/img/YSC2019_Code_of_Conduct.pdf">Code of Conduct</a>. 
+<br><br>A response team will be available at the conference, should anyone wish to report unacceptable behaviour.</p>

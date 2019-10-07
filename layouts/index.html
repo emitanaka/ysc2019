@@ -36,27 +36,98 @@
           <section class="about" id="about">
             {{ partial "about" $.Site.Params }}
           </section>
+          
+          <section class="about" id="dates">
+<h2 class="section-title">Key Dates 2019</h2>
+<table style="width:100%;font-size:12pt;line-height:1.5;">
+  <tr>
+    <td>Conference abstract submission closes</td>
+    <td>Sunday 16 June</td> 
+  </tr>
+  <tr>
+    <td>Notification of conference abstract acceptance</td>
+    <td>Monday 1 July</td> 
+  </tr>
+  <tr>
+    <td>Early bird registration period ends  </td>
+    <td>Thursday 1 August</td> 
+  </tr>
+  <tr>
+    <td>Conference registration closes </td>
+    <td>Tuesday 17 September</td> 
+  </tr>
+  <tr>
+    <td>Three-minute video competition submissions due  </td>
+	  <td><b>Wednesday 25 September <span style = "font-size: 12pt; color: #D32C0E">!! Updated !!</span></b></td> 
+  </tr>
+  <tr>
+    <td>Pre-conference workshop </td>
+    <td>Monday 30 September</td> 
+  </tr>
+  <tr>
+    <td>Trivia Night</td>
+    <td>Monday 30 September</td> 
+  </tr>
+  <tr>
+    <td>Conference opens  </td>
+    <td>Tuesday 1 October</td> 
+  </tr>
+  <tr>
+    <td>Conference dinner   </td>
+    <td>Tuesday 1 October</td> 
+  </tr>
+  <tr>
+    <td>Conference closes    </td>
+    <td>Wednesday 2 October</td> 
+  </tr>
+</table>
+
+</section>
+          
+<section class="about" id="sponsors">
+   {{ partial "sponsors" $.Site.Params }}
+</section>
         
-  <section class="about" id="speakers">  
-    {{ partial "speakers.html" .Site.Params }}
+<section class="about" id="speakers">  
+   {{ partial "speakers.html" .Site.Params }}
+</section>
+	  
+<section class="about" id="schedule">
+   {{ partial "schedule" $.Site.Params }}
+</section>
+	  
+<!--
+  <section class="about" id="sponsors">  
+    {{ partial "sponsors.html" .Site.Params }}
   </section>
+-->
   
   <section class="about" id="workshop">  
-  <h2 class="section-title">Workshop</h2>
-  <span style="font-size:14pt">More information coming soon!</span>
+   {{ partial "workshop.html" .Site.Params }}
   </section>
 
-      <section class="about" id="videocomp">
-            <h2>Video Competition</h2>
-            <span style="font-size:14pt">More details to follow!</span>
+<section class="about" id="video">
+  {{ partial "video" $.Site.Params }}
+</section>
+	  
+<section class="about" id="accomodation">
+   {{ partial "accomodation" $.Site.Params }}
+</section>
+	  
+<section class="about" id="socials">
+   {{ partial "socials" $.Site.Params }}
+</section>
+	  
+	  <section class="about" id="canberra">
+        {{ partial "canberra" $.Site.Params }}
       </section>
           
-           <section class="about" id="contact">
-            {{ partial "contact" $.Site.Params }}
-          </section>
+      <section class="about" id="contact">
+        {{ partial "contact" $.Site.Params }}
+      </section>
           
-          <section class="about" id="organisers">
-            <h2>Organising Committee</h2>
+      <section class="about" id="organisers">
+        <h2>Organising Committee</h2>
             <table style="width:100%;line-height:3em;">
             <tr>
             <td style="font-size:14pt">Raaj Kishore Biswas</td>
@@ -85,10 +156,6 @@
             <tr>
             <td style="font-size:14pt">John Yeung</td>
             <td style="font-size:14pt">Assistant Website Manager</td>
-            </tr>
-            <tr>
-            <td style="font-size:14pt">Jandy Tenedora</td>
-            <td style="font-size:14pt">Social Media Manager</td>
             </tr>
             <tr>
             <td style="font-size:14pt">Kylie-Ann Mallitt</td>
