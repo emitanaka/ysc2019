@@ -26,40 +26,33 @@ params:
     #- registration 
     #- abstract submission
     #- program
+    #- social program
     #- location
     - speakers
-    - schedule
+    #- schedule
     - sponsors
-    - workshop
-    - video
-    - socials
-    - accomodation
-    - canberra
-    - contact
-    - organisers
+ 	  - workshop
+ 	  - video
+ 	  - contact
+ 	  - organisers
 
   # Titles which you can translate to other languages
   Titles:
     about: "About"
     #location: "Location"
-    speakers: "Keynote Speakers"
-    schedule: "Schedule"
-    sponsors: "Sponsors"
+    speakers: "Program"
+    #schedule: "Schedule"
+    #sponsors: "Sponsors"
     #partners: "Partners"
-    contact: "Contact Us"
-    video: "Video Competition"
-    socials: "Dinner"
-    canberra: "About Canberra"
-    accomodation: "Accomodation"
-    organisers: "Organising Committee"
+    contact: "Contact"
+	  video: "YSC 2019 Three Minute Thesis Video Competition"
+	  organisers: "Organising Committee"
 
   # The Call To Action button at the header,
   # If you don't want this, just remove the callToAction property.
   CallToAction:
-    text: "Register for pre-YSC Trivia Night"
-    link: "https://statsoc.org.au/event-3478779"
-
-  #link: "https://docs.google.com/forms/d/e/1FAIpQLSfJAUZJZuYJSuo2hiUATREDSQIhQk7Z-1-sPWd-FTxhmAJKGQ/viewform"
+    text: "Register your interest now!"
+    link: "https://docs.google.com/forms/d/e/1FAIpQLSfJAUZJZuYJSuo2hiUATREDSQIhQk7Z-1-sPWd-FTxhmAJKGQ/viewform"
 
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   #ForkButton:
@@ -70,43 +63,19 @@ params:
     - name: "ACEMS"
       logo: "img/logo-with-text-150.png"
       url: "https://acems.org.au/home"
-      text: "The Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS) brings together a critical mass of Australia’s best researchers in applied mathematics, statistics, mathematical physics and machine learning. The Centre brings together researchers from across Australia, engaging in research programs that combine innovative methods for the analysis of data with theoretical, methodological and computational foundations provided by advanced mathematical and statistical modelling. ACEMS aims to create world-class research at the frontiers of the mathematical sciences dealing with probability and randomness, and to translate this research into new insights that benefit society."
-    - name: "Australian Bureau of Statistics"
-      logo: "img/abs.png"
-      url: "http://www.abs.gov.au/"
-      text: "The Australian Bureau of Statistics (ABS) is Australia’s national statistical agency, providing trusted official statistics on a wide range of economic, social, population and environmental matters of importance to Australia. The role of the ABS is to provide the statistical information that Australia needs, respond to the changing information priorities of its stakeholders, enhance the ways that it interacts with its stakeholders, develop and maintain community trust, which is fundamental to its ability to collect high quality information, enable effective and safe use of its statistics, coordinate and advise official bodies on statistics, including developing, and ensuring compliance with, statistical standards, fulfil its role as an Accredited Integrating Authority, build its capacity to take advantage of opportunities, such as advances in technology, big data, and use of administrative information for statistical purposes,  ensure cost-effect operations, including better use of existing information, collect information more efficiently, streamline processes, and reduce the impact on those who provide statistical information. It is the highest priority of the ABS to deliver high quality official statistics. To ensure that the ABS can deliver relevant, trusted, objective statistics, it is transforming the ABS and partnering with stakeholders to innovate, develop and implement new statistical solutions. The ABS also has an important leadership role, coordinating statistical activities and collaborating with official bodies in the collection, compilation, analysis and distribution of statistics. In addition, the ABS provides technical advice and assistance to the Australian and state and territory governments in relation to statistics, develops standards for statistics, and helps to ensure compliance with those standards. The ABS Corporate Plan, outlining the ABS purpose, strategic priorities, operating environment and performance measures, can be found on the ABS website."
-    - name: "Australian Mathematical Sciences Institute"
-      logo: "img/AMSI_V_RGB_HR.png"
-      url: "https://amsi.org.au/"
-      text: "AMSI is the collaborative enterprise of Australia’s mathematical sciences. They pursue collaboration between member orgaisations to promote mathematics in school eductaion, improve research base in Australia and strengthen the industry-university link. "
+      text: "The Australian Research Council (ARC) Centre of Excellence for Mathematical and Statistical Frontiers (ACEMS) brings together a critical mass of Australia’s best researchers in applied mathematics, statistics, mathematical physics and machine learning. The Centre brings together researchers from across Australia, engaging in research programs that combine innovative methods for the analysis of data with theoretical, methodological and computational foundations provided by advanced mathematical and statistical modelling.
+
+ACEMS aims to create world-class research at the frontiers of the mathematical sciences dealing with probability and randomness, and to translate this research into new insights that benefit society."
     - name: "Minitab"
       logo: "img/Minitab Corp Logo BGround.jpg"
-      url: "https://www.minitab.com/en-us/"
-      text: "Minitab helps companies and institutions to spot trends, solve problems and discover valuable insights in data by delivering a comprehensive and best-in-class suite of statistical analysis and process improvement tools. Combined with unparalleled ease-of-use, Minitab makes it simpler than ever to get deep insights from data. Plus, a team of highly trained data analytic experts ensure that users get the most out of their analysis, enabling them to make better, faster and more accurate decisions. With its foundations in academia, Minitab is the leading software used for statistics education at more than 4,000 colleges and universities worldwide. More students learn statistics with Minitab than with any other software. In 2017, Minitab acquired Salford Systems, a leading provider of advanced analytics which delivers a suite of powerful data mining, predictive analytics and modelling capabilities. Unlock the value of your data with Minitab. For more information visit www.minitab.com."
-    - name: "Oritain Global"
-      logo: "img/Oritain_logo_vertical_RGB.jpg"
-      url: "https://oritain.com"
-      text: "Oritain Global Ltd is a scientific traceability company that verifies origin of food, fibre and pharma by combining statistics with trace element and isotope forensic chemistry. We interrogate the chemical data using multivariate statistical models to form an Origin Fingerprint. We partner with some of the major fashion and food producers and retailers to help protect their product from being counterfeited, and to help ensure customers that the origin claims on the products they buy are true.  By testing the product itself, Oritain provides a point of difference from traditional traceability - packaging, certificates, serialisation - itself susceptible to fraud. "
+      url: "www.minitab.com"
+      text: "Minitab helps companies and institutions to spot trends, solve problems and discover valuable insights in data by delivering a comprehensive and best-in-class suite of statistical analysis and process improvement tools. Combined with unparalleled ease-of-use, Minitab makes it simpler than ever to get deep insights from data. Plus, a team of highly trained data analytic experts ensure that users get the most out of their analysis, enabling them to make better, faster and more accurate decisions.
+With its foundations in academia, Minitab is the leading software used for statistics education at more than 4,000 colleges and universities worldwide. More students learn statistics with Minitab than with any other software. In 2017, Minitab acquired Salford Systems, a leading provider of advanced analytics which delivers a suite of powerful data mining, predictive analytics and modelling capabilities. Unlock the value of your data with Minitab. For more information visit www.minitab.com.
+"
     - name: "RStudio"
       logo: "img/RStudio Logo Blue Gray.jpg"
       url: "https://www.rstudio.com/"
       text: "RStudio helps people understand and improve the world through data. We build tools that enable robust and reproducible data analysis through programming, paired with tools that make it easy to share insights. Our core software is open source, freely available to anyone. Our professional software equips individuals and teams to develop and share their work at scale."
-    - name: "Swinburne University of Technology"
-      logo: "img/swinburne_logo.png"
-      url: "https://www.swinburne.edu.au/"
-      text: ""
-    - name: "Survey Design"
-      logo: "img/survey_design.png"
-      url: "https://www.surveydesign.com.au/"
-      text: "Survey Design is the authorised distributor in Australia and New Zealand for Stata, Arbutus, Stat/Transfer, QDA Miner and WordStat software. They provide data-based research software for researchers, educators, students and analysts to solve data based questions. "
-    - name: "UniBank"
-      logo: "img/UniBank_RGB_Black_Logo.jpg"
-      url: "https://www.unibank.com.au/"
-      text: "UniBank is a member owned mutual bank who offer a range of personal banking and services to people working and studying in tertiary and post-secondary qualifications. Founded in 1964, they continued to ensure their members to have a brighter future. "
-    - name: "UniSuper"
-      logo: "img/unisuper_logo.png"
-      url: "https://www.unisuper.com.au/"
-      text: "UniSuper manages $70+ billion in net funds for over 400,000 members include students and researchers. UniSuper is the super fund dedicated to people working in Australia's higher education and research sector. "
   # List of Partners
   Partners:
     - name: "Statistical Society of Australia"
@@ -145,262 +114,4 @@ Her research concerns the development of statistical methods for the analysis of
       presentation:
         title: ""
         description: ""
-    - name: "Dr Alison Presmanes Hill"
-      photo: "/img/alison2.jpg"
-      bio: "Alison Hill is a Data Scientist & Professional Educator at RStudio, developing free and open source tools to make it easier and more fun to do data science with the statistical programming language. 
-Alison studied psychology and quantitative methods, receiving her Ph.D. from Vanderbilt University in 2008. For eight years, she was a professor and scientist at Oregon Health & Science University, where her research was funded by the National Institutes of Health, the Oregon Clinical and Translational Research Institute, and Autism Speaks. She has written numerous scientific journal articles and book chapters on autism and neurodevelopmental disorders.
-She has developed and delivered workshops, graduate-level courses, and curricula based on teaching R, the tidyverse, and literate programming."
-      company: "Data Scientist & Professional Educator, RStudio"
-      link:
-        href: ""
-        text: ""
-      presentation:
-        title: ""
-        description: ""
-    - name: "Dr Calvin Hung"
-      photo: "/img/calvin.jpg"
-      bio: "Dr Calvin Hung is a Data Scientist at QuantumBlack. QuantumBlack is an advanced analytics firm and part of McKinsey & Company, operating at the intersection of strategy, technology and design to improve performance outcomes for organisations. Calvin holds a BSc in Physics and Mathematics, a BEng in Aerospace and a PhD in Robotics, all from the University of Sydney. His research focused on applying Deep Learning techniques to help robots navigate real world environments. After 3 years of postdoc Calvin joined the finance industry, developing systems to improve financial well-being of customers. Calvin joined QuantumBlack in 2017 and has since worked on a variety of transformation programs across retail, telco, mining and pharmaceutical industries."
-      company: "Data Scientist, QuantumBlack"
-      link:
-        href: ""
-        text: ""
-      presentation:
-        title: ""
-        description: ""
-    - name: "Welcome/house keeping"
-      time: "1st October 9:00 am"
-    - name: "Welcome to country"
-      time: "9:05 am"
-    - name: "Invited speaker"
-      time: "9:15 am"
-    - presentation:
-        title: "Teresa Dickinson"
-        description: "Deputy Australian Statistician, Australian Bureau of Statistics"
-    - name: "Population and economics"
-      time: "10:00 am"
-    - presentation:
-        title: "Stephanie Kobakian"
-        time: "10:00 am"
-        description: "sugarbag: hexagons maps and life in Australia"
-    - presentation:
-        title: "Karuna Reddy"
-        time: "10:12 am"
-        description: "Optimal Stratification in Sampling of Forest Populations"
-    - presentation:
-        title: "Zhi Yang Tho"
-        time: "10:24 am"
-        description: "On the Robust Estimation for Spatial Autoregressive Model"
-    - presentation:
-        title: "James Bailie"
-        time: "10:36 am"
-        description: "Using Admin Data and Machine Learning to Predict Dwelling Occupancy on Census Night"
-    - presentation:
-        title: "Muhammad Ejaz"
-        time: "10:48 am"
-        description: "Adversarial Risk Analysis for First-Price Sealed-Bid Auctions"
-    - name: "Morning Tea"
-      time: "11:00 am"
-    - name: "Bioinformatics, agricultural and environmental"
-      time: "11:30 am"
-    - presentation:
-        title: "Sam Rogers"
-        time: "11:30 am"
-        description: "A comparison of linear mixed model packages in R for analysis of plant breeding comparative experiments"
-    - presentation:
-        title: "Xiangnan Xu"
-        time: "11:42 am"
-        description: "A local consistency visualization (LC-vis) method for nutrigenomics"
-    - presentation:
-        title: "Aline Kunnel"
-        time: "11:54 am"
-        description: "Can Hypercubes Overcome the Issue of High Dimensionality in Gene Expression Data for Sepsis?"
-    - presentation:
-        title: "Laura Cartwright"
-        time: "12:06 pm"
-        description: "Bayesian atmospheric tomography for detection and estimation of methane emissions"
-    - presentation:
-        title: "Sophie Schiller"
-        time: "12:18 pm"
-        description: "Detecting Migration Routes for the First Peoples of Australia	"
-    - presentation:
-        title: "Annie Conway"
-        time: "12:30 pm"
-        description: "A genome-wide association study on drought tolerance in barley"
-    - presentation:
-        title: "Yiwen (Wendy) Li"
-        time: "12:35 pm"
-        description: "Experiments on canola emergence for Ag Science students: project-based teaching of statistics"
-    - presentation:
-        title: "Udani Abhisheka Wijewardhana"
-        time: "12:40 pm"
-        description: "Statistical models for the persistence of threatened birds developed using citizen science data"
-    - name: "Lunch"
-      time: "12:45 pm"
-    - name: "Invited speaker"
-      time: "1:45 pm"
-    - presentation:
-        title: "Calvin Hung"
-        description: "Data Scientist, QuantumBlack"
-    - name: "Applied biostatistics and biostatistics in practice"
-      time: "2:30 pm"
-    - presentation:
-        title: "D.K. Ishara"
-        time: "2:30 pm"
-        description: "Forecasting daily counts of patient presentations in Australian emergency departments using statistical models with time-varying predictors: a retrospective study"
-    - presentation:
-        title: "Chrianna Bharat"
-        time: "2:42 pm"
-        description: "Predicting alcohol dependence among early adolescent regular alcohol users"
-    - presentation:
-        title: "Taya Collyer"
-        time: "2:54 pm"
-        description: "What makes a good statistical collaborator? Insights from 45 interviews with public health researchers"
-    - presentation:
-        title: "Lachlan Webb"
-        time: "3:06 pm"
-        description: "Using Segmented Regression to describe the clearance profile of an antimalarial in human infections"
-    - presentation:
-        title: "John Warmenhoven"
-        time: "3:18 pm"
-        description: "Bringing functional data analysis to the field of sport science: examples from rowing."
-    - name: "Afternoon tea"
-      time: "3:30 pm"
-    - name: "Careers Panel"
-      time: "4:00 pm"
-      description: "Louise Ryan, UTS; Teresa Neeman, ANU; Warren Muller, CSIRO; Jacinta Holloway, ABS"
-    - name: "Welcome"
-      time: "2nd October 9:00 am"
-    - name: "Invited speaker"
-      time: "9:00 am"
-    - presentation:
-        title: "Alison Hill"
-        description: "Data Scientist & Professional Educator, Rstudio"
-    - name: "Mathematical statistics"
-      time: "9:45 am"
-    - presentation:
-        title: "Farzana Jahan"
-        time: "9:45 am"
-        description: "Bayesian Empirical Likelihood Spatial Model applying Leroux Structure	"
-    - presentation:
-        title: "Sarah Romanes"
-        time: "9:57 am"
-        description: "Using Variational Approximations to efficiently build a generalised discriminant analysis (genDA) algorithm."
-    - presentation:
-        title: "Peilun He"
-        time: "10:09 am"
-        description: "On the Parameter Estimation in the Schwartz-Smith’s Two-Factor Model"
-    - presentation:
-        title: "Nelson Chua"
-        time: "10:21 am"
-        description: "Asymptotic Relative Efficiency of Composite Likelihood Estimation for Gaussian Spatial Processes"
-    - presentation:
-        title: "Ravindi Nanayakkara"
-        time: "10:33 am"
-        description: "Stochastic Modelling and Statistical Analysis of Cosmic Microwave Background Data"
-    - presentation:
-        title: "Haruki Osaka"
-        time: "10:45 am"
-        description: "Asymptotic theory for the hypothesis testing problem for the number of components in a normal mixture model"
-    - presentation:
-        title: "Aya Alwan"
-        time: "10:50 am"
-        description: "mpcmp: fitting dispersed count data using mean parametrized Conway-Maxwell-Poisson models"
-    - presentation:
-        title: "Bradley Wakefield"
-        time: "10:55 am"
-        description: "The Multivariate Moments Problem: A Solution to Privacy Concerns of Synthetic Data"
-    - name: "Morning Tea"
-      time: "11:00 am"
-    - name: "Biostatistical methods"
-      time: "11:30 am"
-    - presentation:
-        title: "Monsurul Hoq"
-        time: "11:30 am"
-        description: "Comparison of statistical methods for constructing age-specific paediatric reference intervals: a simulation study"
-    - presentation:
-        title: "Rushani Wijesuriya"
-        time: "11:42 am"
-        description: "Evaluation of approaches for multiple imputation in three-level data structures"
-    - presentation:
-        title: "Ruoxu Tan"
-        time: "11:54 am"
-        description: "Group testing regression analysis with missing data"
-    - presentation:
-        title: "Jeffrey Pullin"
-        time: "12:06 pm"
-        description: "Bayesian analysis of noisy categorical ratings in health and medicine"
-    - presentation:
-        title: "Philip Clare"
-        time: "12:18 pm"
-        description: "Comparison of methods for adjusting for exposure-affected time-varying confounding in the presence of missing data – a Monte-Carlo simulation study"
-    - presentation:
-        title: "Quoc Duyet Tran"
-        time: "12:30 pm"
-        description: "Bayesian agreement measure for ordinal outcomes"
-    - presentation:
-        title: "Farzana Jahan"
-        time: "12:35 pm"
-        description: "Augmenting Disease maps: a Bayesian meta-analysis approach"
-    - presentation:
-        title: "Connor Smith"
-        time: "12:40 pm"
-        description: "VIVID: Visualising model stability information"
-    - presentation:
-        title: "Kim Jachno"
-        time: "12:45 pm"
-        description: "Accounting for non-constant rates and time-dependent treatment effects when designing, analysing and reporting clinical trials: a review"
-    - name: "Lunch"
-      time: "12:50 pm"
-    - name: "Video competition"
-      time: "1:50 pm"
-    - name: "Computer science"
-      time: "2:00 pm"
-    - presentation:
-        title: "Jiadong Mao"
-        time: "2:00 pm"
-        description: "Nonparametric estimation for streaming data"
-    - presentation:
-        title: "Nicholas Tierney"
-        time: "2:12 pm"
-        description: "Making better spaghetti (plots): Exploring the individuals in longitudinal data with the brolgar package"
-    - presentation:
-        title: "Lisa Thomasen"
-        time: "2:24 pm"
-        description: "Influencing Data Culture to Enable Opportunities for Analytics"
-    - presentation:
-        title: "Sayani Gupta"
-        time: "2:36 pm"
-        description: "Exploring probability distributions for bivariate temporal granularities"
-    - presentation:
-        title: "Huize (Sherry) Zhang"
-        time: "2:48 pm"
-        description: "Exploration of Judicial Facial Expression in Videos and Transcripts of Legal Proceedings"
-    - presentation:
-        title: "Matthew J. Gibson"
-        time: "3:00 pm"
-        description: "Robust convolutional networks for label noise"
-    - presentation:
-        title: "S. Sandun Malpriya Silva"
-        time: "3:05 pm"
-        description: "Identifying the future state of engagement of participants in physical activity programs using mixture hidden Markov models: including a web based application for intervention"
-    - presentation:
-        title: "Samudra Herath"
-        time: "3:10 pm"
-        description: "Name-like Numbers for Simulating Names in Entity Resolution"
-    - presentation:
-        title: "Rajas Kulkarni"
-        time: "3:15 pm"
-        description: "Iwi Index of Multiple Deprivation for Ngai Tahu"
-    - presentation:
-        title: "Daniel Flores Agreda"
-        time: "3:20 pm"
-        description: "Bootstrapping Clustered Data with a Random Weighted Laplace Approximation"
-    - name: "Afternoon tea"
-      time: "3:25 pm"
-    - name: "Invited speaker"
-      time: "3:55 pm"
-    - presentation:
-        title: "Margarita Moreno-Betancur"
-        description: "Senior Research Fellow, VicBiostat"
-    - name: "Closing, Video Competition & Awards"
-      time: "4:40 pm"
+

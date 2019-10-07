@@ -1,6 +1,7 @@
 <h2 class="section-title">{{ .titles.schedule }}</h2>
-<p>The conference programme is available <a href="programme.html">here</a>. </p>
-<!--
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 <div class="schedule-tbl">
   <table>
     <thead>
@@ -11,7 +12,7 @@
       </tr>
     </thead>
     <tbody>
-      {{ range $slot := (where .schedule "photo" nil)}}
+      {{ range $slot := .schedule }}
         {{ if ne .presentation nil }}
           <tr>
             <td class="schedule-time">{{ .presentation.time }}</td>
@@ -38,5 +39,3 @@
     </tbody>
   </table>
 </div>
--->
-<p>For presenters coming into our conference, we have provided a <a href="tips.html">guideline and tips</a> for all presenters. </p>
