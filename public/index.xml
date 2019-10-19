@@ -9,5 +9,17 @@
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title></title>
+      <link>/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/</guid>
+      <description>Young Statisticians Conference 2019AboutCompetitionProgrammeContact#YSC2019More Keynote SpeakersSponsorsWorkshopAccomodationOrganisers Visualising the Future1-2, October 2019, Manuka Oval, CanberraRegister for YSC2019!
+Register for YSC Dinner
+Register for pre-YSC Trivia Night
+AboutYoung Statisticians Conference is a biennial conference for students and early career researcher in statistics sponsored by Statistical Society of Australia.</description>
+    </item>
+    
   </channel>
 </rss>
